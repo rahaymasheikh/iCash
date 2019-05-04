@@ -1,0 +1,38 @@
+{
+  "name": "rahaymasheikh-final-project",
+  "version": "1.0.0",
+  "description": "## Overview Most people don’t carry much cash around anymore.  And if they do, a lot of people don’t keep track of it (especially all that loose change at the bottom of your bag).  More often than not, people expect they have more cash on them than they actually do (I know I do), which can be especially problematic when you realize the place you just ordered food at only takes cash… and you don’t have enough.  This is where iCash comes in! iMoney is a web application that will allow a user to keep track of how much cash they are currently carrying around at any given moment without having to worry about manually counting it to keep track of it.  Users will be able to log in and create a personal account to keep track of their money. After logging in, they can set their current balance to a starting number.  Thereafter, the user can add or subtract amounts they just received or spent. It will also show when the current balance amount was last updated.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-001-003-fall-2018/rahaymasheikh-final-project.git"
+  },
+  "author": "rahayma sheikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-001-003-fall-2018/rahaymasheikh-final-project/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-001-003-fall-2018/rahaymasheikh-final-project#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-plugin-mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "animejs": "^2.2.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "hbs": "^4.0.1",
+    "mock-require": "^3.0.2",
+    "mongoose": "^5.3.10",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.1",
+    "path": "^0.12.7",
+    "require": "^2.4.20"
+  }
+}

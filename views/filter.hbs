@@ -1,0 +1,45 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">iCash</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/account">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/account/myCash/add">Add $$$</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/account/myCash/subtract">Subtract :(</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/account/myCash/filter">Filter</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="logout-link" href="/logout">Log Out</a>
+            </li>
+        </ul>
+
+    </div>
+</nav>
+
+<br><br><br>
+
+<div class="filter-form">
+    <form method="POST" action="filter">
+        <h2>Let's filter the results by amount</h2>
+        <div>
+            <h3><label for="start_amount">Enter a starting amount:</label></h3>
+            $ <input type="number" id="start_amount" name="start_amount" value="0.00">
+        </div>
+        <br>
+        <div>
+            <h3><label for="end_amount">Enter an ending amount:</label></h3>
+            $ <input type="number" id="end_amount" name="end_amount" value="0.00">
+        </div>
+        <input id="filter-button" type="submit" value="Filter">
+    </form>
+</div>

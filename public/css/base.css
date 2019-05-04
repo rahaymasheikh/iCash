@@ -1,0 +1,110 @@
+.heading{
+    color: red;
+    text-align: center;
+}
+
+h1, .h1 {
+    padding-top: 20px;
+    font-size: 80px;
+}
+
+.intro{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 45px;
+}
+
+#homepage-buttons{
+    padding-left: 600px;
+}
+
+
+.login{
+    font-size: 75px;
+    padding-top: 225px;
+    text-align: center;
+}
+
+.login-form{
+    font-size: 30px;
+    text-align: center;
+}
+
+#login-button{
+    background-color: aquamarine;
+}
+
+.register{
+    font-size: 75px;
+    padding-top: 225px;
+    text-align: center;
+}
+
+.register-form{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.add-form{
+    text-align: center;
+    font-size: 25px;
+}
+
+#add-button{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.filter-form{
+    text-align: center;
+    font-size: 25px;
+}
+
+#filter-button{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.subtract-form{
+    text-align: center;
+    font-size: 25px;
+}
+
+#subtract-button{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#register-button{
+    background-color: orange;
+}
+
+.error{
+    text-align: center;
+    font-size: 30px;
+    color: crimson;
+}
+
+#logout-link{
+    padding-left: 900px;
+}
+
+.added{
+    font-size: 20px;
+}
+
+.title{
+    font-size: 45px;
+}
+
+.balance{
+    font-size: 45px;
+}
+
+.filtered{
+    font-size: 25px;
+}
